@@ -12,3 +12,22 @@ console.log(myname.length);
 console.log(myname.charAt(2));
 console.log(myname.indexOf('u'));
 
+const newname=name.slice(0,4)
+console.log(newname);
+let newname1=name.slice(0,-2)
+console.log(newname1);
+
+newname1='kanupriya'
+const newname2=newname1.slice(-2,2);
+console.log(newname1);
+
+const newStringone="  kanu  "
+console.log(newStringone);
+console.log(newStringone.trim());
+
+const url="https://kanu.com/kanu%20tiwari"
+console.log(url.replace('%20','_'));
+console.log(url.includes('kanu'));
+
+const onename="my name is kanu"
+console.log(onename.split(' '));
